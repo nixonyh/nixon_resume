@@ -1,8 +1,8 @@
-// const color
+// Const color.
 #let color_darknight = rgb("#131A28")
 #let color_darkgray = rgb("333333")
 
-// layout utility
+// Layout utility.
 #let justify_align(left_body, right_body) = {
   block[
     #left_body
@@ -163,9 +163,9 @@
   align(left)[
     #box[
       #box(radius: 6pt, clip: true)[#image(
-          "assets/images/me.jpg",
-          height: 80pt,
-        )]
+        "assets/images/me.jpg",
+        height: 80pt,
+      )]
       #h(8pt)
       #box[
         #name
@@ -181,7 +181,7 @@
   body
 }
 
-// general style
+// General style.
 #let resume_section(title) = {
   set text(
     size: 16pt,
@@ -240,7 +240,7 @@
   text[Cumulative GPA: #box[#strong[#numerator] / #denominator]]
 }
 
-// sections specific components
+// Sections specific components.
 #let education_item(organization, degree, gpa, time_frame) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
@@ -286,13 +286,15 @@
 ) = {
   set block(above: 0.7em, below: 0.7em)
   set pad(top: 5pt)
-  pad[
-    #justify_align[
-      #resume_organization[#name]
-    ][
-      #text(style: "italic", size: 8pt)[#link(url)]
-    ]
-  ]
+  box(
+    pad[
+      #justify_align[
+        #resume_organization[#name]
+      ][
+        #text(style: "italic", size: 8pt)[#link(url)]
+      ]
+    ],
+  )
 }
 
 #let award_item_header(
