@@ -14,7 +14,7 @@
     youtube: "@voxelltech",
     itchio: "nixon-voxell",
     positions: (
-      "Computer Graphics Engineer",
+      "Graphics Engineer",
       "\nTechnical Artist",
     ),
   ),
@@ -75,7 +75,7 @@
 
 #work_experience_item_header(
   "23 Bulbs",
-  "Computer Graphics Engineer",
+  "Graphics Engineer",
   "UK",
   "Sep. 2020 - Present",
 )
