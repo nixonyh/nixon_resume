@@ -280,6 +280,21 @@
   ]
 }
 
+#let work_experience_item_cont(
+  position,
+  time_frame,
+) = {
+  set block(above: 0.7em, below: 0.7em)
+  set pad(top: 5pt)
+  pad[
+    #justify_align[
+      #math.arrowhead #resume_position[#position]
+    ][
+      #resume_time[#time_frame]
+    ]
+  ]
+}
+
 #let project_item_header(
   name,
   url,

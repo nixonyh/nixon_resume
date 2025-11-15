@@ -57,7 +57,7 @@
   "Oct. 2025 - Present",
 )
 #resume_item[
-  - Co-host of Rust Malaysia. Help organize events, give talks, mentor, etc.
+  - Develop cutting edge engineering softwares using Bevy and Egui.
 ]
 
 #work_experience_item_header(
@@ -67,14 +67,18 @@
   "Nov. 2023 - Present",
 )
 #resume_item[
-  - Co-host of Rust Malaysia. Help organize events, give talks, mentor, etc.
+  - Help organize events, give talks, mentor, etc.
 ]
 
 #work_experience_item_header(
   "23 Bulbs",
   "Senior Graphics Engineer",
   "UK",
-  "Sep. 2020 - Present",
+  "Oct. 2025 - Present",
+)
+#work_experience_item_cont(
+  "Graphics Engineer",
+  "Sep. 2020 - Sep. 2025",
 )
 #resume_item[
   - Develop GPU accelerated softbody physics engine.
